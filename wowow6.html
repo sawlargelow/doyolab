@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="jp">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>3Dアバターの作成</title>
+    
+    <link rel="stylesheet" href="main.css">
+</head>
+
+
+<body>
+    <!--ホームに帰るためのボタン-->
+    <h1>まずは作成</h1>
+        <p>
+            　2020年7月現在も新型コロナウイルスの影響が大きく、神奈川大学はオンライン授業を後期まで伸ばすことを決定したそうだ。<br>
+            そんな状況ではオンライン授業を行うのが一般的である。だが、自身の真正面からの顔を見知らぬ人に見られることは非常に抵抗感があると思う。<br>
+            ただ、プロレスラーが着用するようなマスクを着けた状態で授業を受けると晒し者になること間違いない。<br>
+            だったら顔を隠したい人はアバターを使い隠せばいいと考えた。3Dアバターなら動きを読み取ってもらえるからその場にいるという証拠にもなる。<br>
+            　そこで、3Dアバターを作成することができるソフト「Blender」を使用し、作成してみることにした。<br>
+            前回上げたデザインだとBlenderを一度も触ったことのない僕が作成するにはまだ早いと思い、こんなデザインにした。<br>
+            <image src="https://github.com/sawlargelow/doyolab/blob/master/tamago.png?raw=true"></image><br>
+            　このデザインにした理由は僕の頭の形が卵の形に似ているからである。(単純）
+            　まずは頭を作り円錐状になっている身体を作成。次に両腕と両脚を作成。手先と足先は繊細な技術が必要なため今回はスルーする―。<br>
+            ここまでは頭、身体、腕、脚を作成したが、その状態では動かないため、動かすために身体の中に入れる骨を作成しなければならない。<br>
+            ただ骨を入れるだけでは肉とくっついていないので、くっつける必要がある。<br>
+            右上の「Armature」をクリックしShiftキーを押しながら「Body」をクリック。<br>
+            オブジェクトモードにし、その右側にある「オブジェクト」→「ペアレント」→「自動のウェイトで」をクリック。<br>
+            <image src="https://github.com/sawlargelow/doyolab/blob/master/tamago2.png?raw=true"></image><br>
+            　これで肉(身体)と骨をくっつけることに成功。後は骨に名前を付けて肘と膝を少し曲げて終了。<br>
+            そして完成した作品を動かすために、アバターをアップロードするソフト「Unity」に「Blender」で完成させたものを取り込む。<br>
+            <image src="https://github.com/sawlargelow/doyolab/blob/master/tamago3.png?raw=true"></image><br>
+              よく見ると分かるが、アバターが左右対称になっている。だがなぜこうなったのか全く分からないので、見て見ぬ振りをしておく。<br>
+            　この「Unity」というソフトはかなり苦労した。何度もやり直したため時間をかなりかけてしまった。<br>
+            　「Blender」に戻り修正するなど行い、あとは「VRChat」というアバターを動かすソフトに入れ込むというところで事件発生。<br>
+            　<image src="https://github.com/sawlargelow/doyolab/blob/master/tamago4.png?raw=true"></image><br>
+            　左上の「VRChat SDK」の中に本来あるはずの「Seeing」がないのだ。<br>
+            　これができれば完成したのだが、完成一歩直前で未完成に終わった。<br>
+            　なぜ表示されないのかは不明。調べても一切出てこない始末。<br>
+            　ということで僕の作品は未完成で終わってしまいました！すみませんでした！！！<br>
+        </p>
+
+</body>
